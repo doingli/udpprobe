@@ -32,6 +32,7 @@
 4. make
 
 ## 安装
+build完成后，再udpprobe/build目录下执行：
 make install
 
 ## 配置
