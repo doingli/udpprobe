@@ -163,6 +163,10 @@ int main(int argc, char** argv)
     gProbeCtx.logfile = NULL; 
 
     std::string conf = parse_program_options(argc, argv); 
+    if (conf.empty())
+    {
+        return -1;
+    }
 
     int ret = parse_conf_file(conf);
     if (0 != ret)
