@@ -24,7 +24,8 @@
 - cmake version 3.10.2
 
 上面是作者开发时的调试环境，如果各项版本不一致应该也可以正常构建
-## Build
+
+## 构建
 在udpprobe目录下：
 1. mkdir build
 2. cd build
@@ -38,7 +39,7 @@ make install
 ## 配置
 conf/udpprobeconf.xml配置文件可配置日志文件地址，各项探测参数
 
-## Run
+## 运行
 切换到bin目录下
 - 启动服务器端
 ./udpechosvr
