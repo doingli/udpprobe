@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/doingli/git/udpprobe/src/udpprobecli.cpp
+cstdio
+-
+ctime
+-
+cstdarg
+-
+string
+-
+iostream
+-
+sys/time.h
+-
+boost/program_options.hpp
+-
+boost/typeof/typeof.hpp
+-
+boost/property_tree/ptree.hpp
+-
+boost/property_tree/xml_parser.hpp
+-
+boost/property_tree/exceptions.hpp
+-
+

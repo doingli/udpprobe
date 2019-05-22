@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<udpprobeconf>
+
+    <!-- 日志输出目录,文件名 -->
+    <logdir>../log</logdir>   
+    <logname>udpprobecli</logname>   
+
+    <!-- 
+        探测目标配置
+        host: 目标ip
+        port: 目标端口
+        freq: 探测频率,每分钟探测多少次
+        pkgsizemin: 探测UDP数据报payload字节数下限
+        pkgsizemax: 探测UDP数据报payload字节数上限
+
+        每次探测数据报payload实际大小在区间[pkgsizemin,pkgsizemax]随机
+    -->
+
+    <probesvrs>
+        <probesvr host="127.0.0.1" port="20000" freq="120" pkgsizemin="100" pkgsizemax="600"/>
+        <probesvr host="127.0.0.1" port="20000" freq="120" pkgsizemin="600" pkgsizemax="2000"/>
+    </probesvrs>
+
+</udpprobeconf>

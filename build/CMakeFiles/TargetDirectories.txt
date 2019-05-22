@@ -1,0 +1,7 @@
+/home/doingli/git/udpprobe/build/CMakeFiles/install/strip.dir
+/home/doingli/git/udpprobe/build/CMakeFiles/edit_cache.dir
+/home/doingli/git/udpprobe/build/CMakeFiles/udpprobecli.dir
+/home/doingli/git/udpprobe/build/CMakeFiles/list_install_components.dir
+/home/doingli/git/udpprobe/build/CMakeFiles/install/local.dir
+/home/doingli/git/udpprobe/build/CMakeFiles/rebuild_cache.dir
+/home/doingli/git/udpprobe/build/CMakeFiles/install.dir

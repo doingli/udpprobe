@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++11 -Wall -Werror -g -ggdb -O0  -rdynamic CMakeFiles/udpprobecli.dir/udpprobecli.cpp.o  -o udpprobecli -Wl,-Bstatic -lboost_program_options -Wl,-Bdynamic 
