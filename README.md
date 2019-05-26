@@ -42,7 +42,7 @@ conf/udpprobeconf.xml配置文件可配置日志文件地址，各项探测参�
 ## 运行
 切换到bin目录下
 - 启动服务器端
-./udpechosvr
+./udpechosvr <port>
 - 启动客户端
 ./udpprobecli --conf-file=../conf/udpprobeconf.xml
 
