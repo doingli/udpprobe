@@ -18,8 +18,8 @@
     -->
 
     <probesvrs>
-        <probesvr host="127.0.0.1" port="20000" freq="120" pkgsizemin="100" pkgsizemax="600"/>
-        <probesvr host="127.0.0.1" port="20000" freq="120" pkgsizemin="600" pkgsizemax="2000"/>
+        <probesvr name="s1" host="61.174.9.146" port="20000" freq="120" pkgsizemin="100" pkgsizemax="600"/>
+        <probesvr name="s2" host="61.174.9.146" port="20000" freq="120" pkgsizemin="600" pkgsizemax="2000"/>
     </probesvrs>
 
 </udpprobeconf>
