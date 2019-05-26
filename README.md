@@ -47,4 +47,4 @@ conf/udpprobeconf.xml配置文件可配置日志文件地址，各项探测参�
 ./udpprobecli --conf-file=../conf/udpprobeconf.xml
 
 ## 其它
-- 
+- 探测结果实时输出到日志文件，需要使用脚本进一步分析，及可视化
