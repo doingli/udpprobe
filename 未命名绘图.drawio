@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2022-12-13T03:09:31.042Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="zPjtPbuCEQHhPPHC1kzQ" version="20.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-13T03:20:22.028Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="8gsnVJuCTMeG-dHbrlTK" version="20.6.2" type="github">
   <diagram id="4v9ztSrbZ17iGiP-d_EN" name="第 1 页">
-    <mxGraphModel dx="1673" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1955" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="DEvo0PoXJ41csMdeebTl-7" value="DS相关交互流程" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" parent="1" vertex="1">
-          <mxGeometry x="40" y="240" width="1510" height="1510" as="geometry" />
+        <mxCell id="DEvo0PoXJ41csMdeebTl-7" value="单局主流程" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="240" width="1550" height="990" as="geometry" />
         </mxCell>
         <mxCell id="DEvo0PoXJ41csMdeebTl-8" value="Client" style="swimlane;startSize=20;html=1;" parent="DEvo0PoXJ41csMdeebTl-7" vertex="1">
-          <mxGeometry y="20" width="190" height="1490" as="geometry" />
+          <mxGeometry y="20" width="190" height="970" as="geometry" />
         </mxCell>
         <mxCell id="lanNdwcCDtCzyVDGoeAC-11" value="开始匹配" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="DEvo0PoXJ41csMdeebTl-8">
           <mxGeometry x="45" y="120" width="100" height="50" as="geometry" />
@@ -31,11 +31,8 @@
         <mxCell id="lanNdwcCDtCzyVDGoeAC-73" value="进入DS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DEvo0PoXJ41csMdeebTl-8">
           <mxGeometry x="50" y="840" width="90" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="lanNdwcCDtCzyVDGoeAC-75" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;&lt;b&gt;单局主流程&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="DEvo0PoXJ41csMdeebTl-8">
-          <mxGeometry x="8.75" y="30" width="172.5" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="DEvo0PoXJ41csMdeebTl-9" value="Gate" style="swimlane;startSize=20;html=1;" parent="DEvo0PoXJ41csMdeebTl-7" vertex="1">
-          <mxGeometry x="190" y="20" width="180" height="1490" as="geometry" />
+          <mxGeometry x="190" y="20" width="180" height="970" as="geometry" />
         </mxCell>
         <mxCell id="lanNdwcCDtCzyVDGoeAC-12" value="进入匹配" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DEvo0PoXJ41csMdeebTl-9">
           <mxGeometry x="50" y="122.5" width="90" height="45" as="geometry" />
@@ -47,7 +44,7 @@
           <mxGeometry x="30" y="750" width="90" height="45" as="geometry" />
         </mxCell>
         <mxCell id="DEvo0PoXJ41csMdeebTl-10" value="Lobby" style="swimlane;startSize=20;html=1;" parent="DEvo0PoXJ41csMdeebTl-7" vertex="1">
-          <mxGeometry x="370" y="20" width="200" height="1490" as="geometry">
+          <mxGeometry x="370" y="20" width="200" height="970" as="geometry">
             <mxRectangle x="370" y="20" width="40" height="460" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -61,7 +58,7 @@
           <mxGeometry x="50" y="750" width="90" height="45" as="geometry" />
         </mxCell>
         <mxCell id="lanNdwcCDtCzyVDGoeAC-8" value="Match" style="swimlane;startSize=20;html=1;" vertex="1" parent="DEvo0PoXJ41csMdeebTl-7">
-          <mxGeometry x="570" y="20" width="200" height="1490" as="geometry">
+          <mxGeometry x="570" y="20" width="200" height="970" as="geometry">
             <mxRectangle x="370" y="20" width="40" height="460" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -87,7 +84,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lanNdwcCDtCzyVDGoeAC-1" value="DsCenter" style="swimlane;startSize=20;html=1;" vertex="1" parent="DEvo0PoXJ41csMdeebTl-7">
-          <mxGeometry x="770" y="20" width="340" height="1490" as="geometry">
+          <mxGeometry x="770" y="20" width="380" height="970" as="geometry">
             <mxRectangle x="370" y="20" width="40" height="460" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -119,7 +116,7 @@
           <mxGeometry x="60" y="750" width="90" height="45" as="geometry" />
         </mxCell>
         <mxCell id="lanNdwcCDtCzyVDGoeAC-9" value="DsAgent" style="swimlane;startSize=20;html=1;" vertex="1" parent="DEvo0PoXJ41csMdeebTl-7">
-          <mxGeometry x="1110" y="20" width="200" height="1490" as="geometry">
+          <mxGeometry x="1150" y="20" width="200" height="970" as="geometry">
             <mxRectangle x="370" y="20" width="40" height="460" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -151,7 +148,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lanNdwcCDtCzyVDGoeAC-10" value="DS" style="swimlane;startSize=20;html=1;" vertex="1" parent="DEvo0PoXJ41csMdeebTl-7">
-          <mxGeometry x="1310" y="20" width="200" height="1490" as="geometry">
+          <mxGeometry x="1350" y="20" width="200" height="970" as="geometry">
             <mxRectangle x="370" y="20" width="40" height="460" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -171,7 +168,7 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="980" y="800" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1410" y="790" />
+              <mxPoint x="1450" y="790" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -186,6 +183,9 @@
         </mxCell>
         <mxCell id="lanNdwcCDtCzyVDGoeAC-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="DEvo0PoXJ41csMdeebTl-7" source="lanNdwcCDtCzyVDGoeAC-69" target="lanNdwcCDtCzyVDGoeAC-71">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lanNdwcCDtCzyVDGoeAC-97" value="&lt;h1 style=&quot;font-size: 24px;&quot;&gt;说明：&lt;/h1&gt;&lt;p style=&quot;font-size: 17px;&quot;&gt;1. DS启动时自主选择监听端口，并汇报到DsCenter&lt;/p&gt;&lt;p style=&quot;font-size: 17px;&quot;&gt;2. DS周期性向DSCenter汇报状态，保活&lt;/p&gt;&lt;p style=&quot;font-size: 17px;&quot;&gt;3. DS启动支持两种方式：DsAgent拉起，或手动拉起&lt;/p&gt;&lt;p style=&quot;font-size: 17px;&quot;&gt;4. 空闲DS回收策略：空闲时间过长、优先在同机器启动尽可能多的实例&lt;/p&gt;&lt;p style=&quot;font-size: 17px;&quot;&gt;5. DsCenter单点，故障重新拉起可快速恢复状态，后面可考虑主备&lt;/p&gt;&lt;p style=&quot;font-size: 17px;&quot;&gt;6. DsAgent启动的DS实例数量：配置、根据物理机器核心数量&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1280" width="610" height="306" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
